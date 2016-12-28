@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1, h2, h3 {
+	font-family: "mr-eaves-modern",sans-serif;
+	font-style: normal;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+    color: #eacfce;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    line-height: 90%;
+    margin-top: 1em;
+    font-size: 18rem;
+	font-weight: 400;
+
+}
+h2 {
+    font-size: 13rem;
+    line-height: 65%;
+	font-weight: 300;
+	letter-spacing: 5pt;
+	margin-bottom: .2em;
+
+}
+h3 {
+    font-size: 2.6rem;
+	font-weight: 100;
+	letter-spacing: .1em;
+}
+
+#links {
+    color: #499d7f;
+    list-style: none;
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1.7rem;
+}
+#links li {
+    text-align: center;
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: .27em;
+    padding-right: 1em;
+}
+
+#coverSplash {
+    width: 100%;
+    color: #bbb;
+    margin: 0 auto;
+}
