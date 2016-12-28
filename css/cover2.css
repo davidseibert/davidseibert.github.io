@@ -47,6 +47,7 @@ body {
 	color: #3F5765;
 	font-family: "jubilat";
 	font-size: 1.7rem;
+	font-weight: 200;
 }
 .socialMediaLink {
 	text-align: center;
@@ -98,4 +99,21 @@ h2 {
 .col-sm-offset-3 {
 }
 .col-sm-offset-2 {
+}
+
+@media screen and (max-width:500px){
+#david {
+	font-size: 9.5rem;
+}
+#subtitle {
+	font-size: 0.9rem;
+	letter-spacing: 0.05em;
+}
+h2 {
+	font-size: 4rem;
+}
+#seibert {
+	font-size: 8rem;
+	line-height: 0.7em;
+}
 }
